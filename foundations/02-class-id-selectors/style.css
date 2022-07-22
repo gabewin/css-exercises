@@ -1,0 +1,20 @@
+/* styles.css */
+
+.odd_number {
+    background-color:rgb(252, 195, 211);
+    font-family:Verdana, "DejaVu Sans", sans-serif;
+}
+
+#element_two{
+    color: blue;
+    font-size: 36px;
+}
+
+.three_four{
+    font-size: 24px;
+}
+
+#element_four{
+    background-color:rgb(184, 243, 172);
+    font-weight: bold;
+}
