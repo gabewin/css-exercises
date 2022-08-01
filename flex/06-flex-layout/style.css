@@ -5,10 +5,43 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column;
 }
 
 img {
   width: 600px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+  padding: 8px;
+}
+
+.content{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  background-color: #eeeeee;
 }
 
 button {
